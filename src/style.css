@@ -10,7 +10,7 @@
 }
 
 body {
-  --frosting: hsl(var(--frosting-hue, 0), 100%, 55%);
+  --frosting: #d3e9f6;
   --lightness: 50;
   --flame: 0;
   --glow-hue: 40;
@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: hsl(180, 30%, calc(var(--lightness, 50) * 1%));
+  background: #2a2a2a;
 }
 
 .whitespace {

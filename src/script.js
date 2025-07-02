@@ -1,3 +1,5 @@
+gsap.registerPlugin(MorphSVGPlugin); 
+
 const {
   gsap,
   gsap: { to, timeline, set, delayedCall },
@@ -173,7 +175,6 @@ const RESET = () => {
     opacity: 1 });
 
   set('body', {
-    '--frosting-hue': Math.random() * 360,
     '--glow-saturation': 50,
     '--glow-lightness': 35,
     '--glow-alpha': 0.4,
